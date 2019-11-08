@@ -233,9 +233,9 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-text .btn {
-  padding: 1.2rem 4rem;
-  border-radius: 2rem;
+.home .walk .walk-text .signUp {
+  padding: 1rem 2rem;
+  border-radius: 1rem;
   font-size: 1.8rem;
   border: 0;
   margin: 1rem;
