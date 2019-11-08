@@ -192,6 +192,18 @@ footer {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 500px) {
+  footer {
+    padding: 2rem 4rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    border: 0;
+    margin: 1.6rem;
+    background-color: #F6F6F6;
+    color: #22283A;
+    width: 190%;
+  }
+}
 .home .intro h2 {
   padding: 15px;
 }
