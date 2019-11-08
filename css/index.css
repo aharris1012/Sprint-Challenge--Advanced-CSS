@@ -201,7 +201,7 @@ footer {
     margin: 1.6rem;
     background-color: #F6F6F6;
     color: #22283A;
-    width: 190%;
+    text-align: center;
   }
 }
 .home .intro h2 {
@@ -235,7 +235,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .space-images img {
-    width: 80%;
+    width: 90%;
   }
 }
 .home .visit-planets {
@@ -253,6 +253,7 @@ footer {
   padding: 50px 60px;
   display: flex;
   justify-content: center;
+  width: 110%;
 }
 @media (max-width: 500px) {
   .home .walk {
