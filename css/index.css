@@ -259,6 +259,7 @@ footer {
   .home .walk {
     display: flex;
     flex-direction: column-reverse;
+    padding: 5%;
   }
 }
 .home .walk .walk-text {
@@ -293,7 +294,7 @@ footer {
     margin: 1.6rem;
     background-color: #22283A;
     color: #F6F7F8;
-    width: 180%;
+    width: 100%;
   }
 }
 .home .walk .walk-img {
