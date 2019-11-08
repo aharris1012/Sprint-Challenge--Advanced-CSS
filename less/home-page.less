@@ -68,6 +68,11 @@
       display:flex;
       flex-direction:column-reverse;
       padding:5%;
+      
+      .for-phone(@display, @direction){
+        display: @display;
+        flex-direction: @direction;
+      }
     }
 
     .walk-text {
@@ -93,7 +98,14 @@
         }
 
         @media @phone{
-          .ButtonPhone();
+          /*.ButtonPhone();*/
+          .signUpButton( @padding,@radius,@font,@margin,@width);
+          padding: @padding;
+          border-radius: @radius;
+          font-size:@font;
+          margin: @margin;
+          width: @width;
+
           margin-bottom:-15%;
         }
       }
