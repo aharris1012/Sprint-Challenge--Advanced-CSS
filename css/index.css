@@ -266,6 +266,17 @@ footer {
   background-color: #22283A;
   color: #F6F7F8;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text .signUp {
+    padding: 2rem 4rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    border: 0;
+    margin: 1.6rem;
+    background-color: #22283A;
+    color: #F6F7F8;
+  }
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
@@ -277,6 +288,6 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-img img {
-    width: 80%;
+    width: 190%;
   }
 }
