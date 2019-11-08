@@ -2,10 +2,15 @@
 .nav-bar{
     text-align: center;
     border: 1px solid @sea-shell;
-    background-color: darken (@wild-sand 8% );
+    background-color: @wild-bend;
     margin: 2%;
     padding: 20px 0;
     height: 25%;
+
+    &:hover{
+        background-color: darken (@wild-sand 8%)
+    }
+
 
     .header-like{
         text-align: center;
@@ -23,6 +28,10 @@
         color: @river-bend;
         text-decoration: none;
         font-size:1.5rem;
+
+        &:hover{
+            color: lighten (@river-bend 5%)
+        }
     }//a//
 
 }//nav bar//
